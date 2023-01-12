@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
             edt_codigo.setText("");
             edt_descricion.setText("");
             edt_precio.setText("");
+            Toast.makeText(this, "Registro Exitoso", Toast.LENGTH_SHORT).show();
         }else{
             Toast.makeText(this, "debes llenar todos los campos", Toast.LENGTH_SHORT).show();
         }
